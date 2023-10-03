@@ -24,7 +24,6 @@ function Lista() {
           <li key={index} className="item">
             <h3>{item.tarefa}</h3>
             <span>{item.tempo}</span>
-            <h3>{item.tarefa}</h3>
           </li>
         ))}
       </ul>
